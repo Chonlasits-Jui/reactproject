@@ -2,15 +2,31 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import Logo from './components/Logo'
 import User from './components/User'
+import LotsOfGreetings from './components/LotsOfGreetings'
+import MyCustomTextWith from './components/MyCustomTextWith'
+import Count from './components/Count'
+import InputText from './components/InputText'
+import UsernameandPassWord from './components/UsernameandPassWord'
 
 
 export default function App() {
   return (
-    <View>
-      <Logo/>
-      <User/>
+    <View styles={styles.continuer}>
+      {/* <Logo/>
+      <User/> */}
+      {/* <LotsOfGreetings/> */}
+      {/* <MyCustomTextWith/> */}
+      {/* <Count/> */}
+      {/* <InputText/> */}
+      <UsernameandPassWord/>
     </View>
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  continuer:{
+    flex:1,
+    justifyContent:'center',
+    alignItems:'center'
+  }
+})
