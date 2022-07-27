@@ -13,7 +13,9 @@ import ImageWithTextInput from './components/ImageWithTextInput'
 import ButtonExample from './components/ButtonExample'
 import Touchable_Example from './components/Touchable_Example'
 import TouchablePractice from './components/TouchablePractice'
-
+import DynamicStyle from './components/DynamicStyle'
+import ModelExample from './components/ModelExample'
+import ModalPractice from './components/ModalPractice'
 export default function App() {
   return (
     <View style={styles.continuer}>
@@ -29,7 +31,10 @@ export default function App() {
       {/* <ImageWithTextInput/> */}
       {/* {<ButtonExample/>} */}
       {/* <Touchable_Example/> */}
-      <TouchablePractice/>
+      {/* <TouchablePractice/> */}
+      {/* <DynamicStyle/> */}
+      {/* <ModelExample/> */}
+      <ModalPractice/>
     </View>
   )
 }
