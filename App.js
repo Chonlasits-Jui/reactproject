@@ -23,7 +23,7 @@ export default function App() {
       <User/> */}
       {/* <LotsOfGreetings/> */}
       {/* <MyCustomTextWith/> */}
-      {/* <Count/> */}
+      <Count/> 
       {/* <InputText/> */}
       {/* {<UsernameandPassWord/>} */}
       {/* <UserNamePassword/> */}
@@ -34,7 +34,7 @@ export default function App() {
       {/* <TouchablePractice/> */}
       {/* <DynamicStyle/> */}
       {/* <ModelExample/> */}
-      <ModalPractice/>
+      {/* <ModalPractice/> */}
     </View>
   )
 }
